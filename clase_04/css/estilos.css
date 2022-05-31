@@ -1,0 +1,53 @@
+/* *{
+    display: none;
+} */
+
+/* aca estan ,poggrg */
+body{
+    background: #222;
+    color: #fff;
+}
+h1,h2,h3{
+    color: #00f;
+}
+#caja1 h2{
+    color: #f00;
+    
+}
+#caja1{
+    background: #3cff00;
+    width: 50%;
+    border-radius: 20px;
+}
+#caja1:hover{
+    background: #666;
+    width: 100%;
+    color: #fff;
+}
+#caja2 > h2{
+    color: #3cff00;
+}
+/* .btn{
+    border-radius: 0px !important;
+} */
+/* .btn-danger{
+    border-radius: 0px !important;
+} */
+
+.btn-flat{
+    border-radius: 0px !important; 
+    border: #000 solid 3px !important;
+}
+.container p{
+    font-size: 4em;
+}
+.container{
+    text-align: center;
+}
+#caja1{
+
+}
+
+.fondo_verde{
+
+}
