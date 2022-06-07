@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;    
+}
+body, html{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+#caja1{
+    width: 50px;
+    height: 50px;
+    background: #f00;
+    border-radius: 50%;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 100;
+}
+#caja2{
+    width: 300px;
+    height: 50px;
+    background: #00ff1a;
+    z-index: 50;
+    position: relative;
+}
+#caja3{
+    width: 300px;
+    height: 50px;
+    background: #00ccff;
+    /* border: #000 solid 8px; */
+    position: relative;
+    left: 80px;
+    top: -30px;
+}
+#caja4{
+    width: 300px;
+    height: 200px;
+    background: #ffb300;
+    /* border: #000 solid 8px; */
+    position: relative;
+}
+#caja5{
+    width: 50px;
+    height: 50px;
+    background: #222;
+    /* border: #000 solid 8px; */
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+#caja6{
+    width: 100%;
+    height: 50px;
+    background: #aa0c0c;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+    
+}
