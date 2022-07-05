@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;    
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.dp-container {
+    width: 100%;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+#pag{
+    width: 100vw;
+    height: 100vh;
+    background: #222;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding: 15px;
+    font-size: 2rem;
+    background: #7fdb16;
+    width: 200px;
+    cursor: pointer;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.btn:hover{
+    background: #406d0c;
+}
+
+#box1{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content:space-around;
+    /* flex-direction: row; */
+    gap: 10px;
+   
+    background: #f00;
+    width: 80%;
+    height: 100px;
+}

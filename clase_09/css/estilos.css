@@ -1,0 +1,28 @@
+#aaa{
+    height: 1000px;
+}
+
+#tbl1{
+    position: sticky;
+    top: 50px
+}
+
+p{
+    text-align: left;
+}
+
+
+@media (min-width: 576px) {
+    
+}  
+@media (min-width: 768px) {
+    
+}  
+@media (min-width: 992px) {
+    p{
+        text-align:justify;
+    }
+}  
+@media (min-width: 1200px) {
+    
+}
